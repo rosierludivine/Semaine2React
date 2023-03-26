@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import Article from './components/Article'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
@@ -11,10 +10,6 @@ const router = createBrowserRouter([
     path: '/',
     element: <App/>
   },
-  {
-    path: '/Article',
-    element: <Article/>
-  }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

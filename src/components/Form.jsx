@@ -29,7 +29,7 @@ function Form() {
               value={Nom}
               onChange={(inputElement)=>{ setNewNom(inputElement.target.value) }} htmlFor="lastname"/>
               </>
-              <button >Register</button>
+              <button type="button">Register</button>
           </div>
       </div>   
     </form>   
